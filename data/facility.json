@@ -1,0 +1,32 @@
+{
+  "_note": "Illustrative terms for a fictional borrower. Not based on any real facility.",
+  "facility_name": "Senior Secured GPU Term Facility",
+  "borrower": "Northwind Inference, Inc. (fictional)",
+  "commitment": 300000000,
+  "outstanding": 190000000,
+  "all_in_rate": 0.095,
+  "quarterly_amortization": 12500000,
+  "residual_value_pct": 0.15,
+  "useful_life_years": {
+    "A100": 4,
+    "H100": 5,
+    "H200": 5,
+    "B200": 5
+  },
+  "advance_rates": {
+    "A100": 0.5,
+    "H100": 0.7,
+    "H200": 0.7,
+    "B200": 0.75
+  },
+  "eligibility": {
+    "min_contract_months_remaining": 6,
+    "max_days_past_due": 60
+  },
+  "concentration_limit_pct": 0.35,
+  "covenants": {
+    "min_dscr": 1.25,
+    "max_ltv": 0.75,
+    "min_liquidity": 15000000
+  }
+}
